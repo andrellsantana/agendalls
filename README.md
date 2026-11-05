@@ -1,12 +1,11 @@
-# Agenda
+# Tarefas
 
-App de agendamentos para iOS 17+ em Swift + SwiftUI, com persistência em SQLite (API nativa `sqlite3`, sem dependências).
+App nativo para macOS 14+ em Swift + SwiftUI, com persistência em SQLite (API nativa `sqlite3`, sem dependências).
 
 ## Funcionalidades
-- Lista de agendamentos agrupada por dia
-- Criar, editar e excluir (deslizar ou dentro do formulário)
-- Campos: título, cliente, data/hora, notas
-- Lembretes por notificação local
+- **Lista**: tarefas numeradas por prioridade; arraste e solte para reordenar. Marque como concluída pela caixa de seleção.
+- **Mesa**: cada tarefa vira um recorte de jornal rasgado sobre uma mesa de madeira. Arraste os recortes para onde quiser; a posição fica salva.
+- Criar com **⌘N** ou o botão **+**; editar com clique duplo; excluir pelo menu de contexto (clique direito).
 
 ## Como abrir no Xcode
 O projeto é gerado com [XcodeGen](https://github.com/yonaskolb/XcodeGen):
@@ -14,11 +13,13 @@ O projeto é gerado com [XcodeGen](https://github.com/yonaskolb/XcodeGen):
 ```bash
 brew install xcodegen
 xcodegen generate
-open Agenda.xcodeproj
+open Tarefas.xcodeproj
 ```
 
+O banco fica em `~/Library/Application Support/Tarefas/tarefas.sqlite`.
+
 ## Estrutura
-- `Agenda/Database/Database.swift`: conexão SQLite, migração e CRUD
-- `Agenda/Store/AgendaStore.swift`: estado observável usado pelas telas
-- `Agenda/Services/Notificacoes.swift`: lembretes locais
-- `Agenda/Views/`: telas SwiftUI
+- `Tarefas/Database/Database.swift`: conexão SQLite, tabela e CRUD
+- `Tarefas/Store/TarefasStore.swift`: estado observável usado pelas telas
+- `Tarefas/Views/ListaView.swift`: lista com arrastar e soltar
+- `Tarefas/Views/MesaView.swift`: mesa, recortes e borda rasgada

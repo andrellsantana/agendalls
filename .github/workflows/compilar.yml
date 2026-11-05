@@ -1,0 +1,40 @@
+name: Compilar
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  macos:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Versão do Xcode
+        run: xcodebuild -version
+
+      - name: Compilar
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project AgendALLS.xcodeproj \
+            -scheme AgendALLS \
+            -configuration Release \
+            -destination 'platform=macOS' \
+            -derivedDataPath build \
+            CODE_SIGN_IDENTITY=- \
+            build | tee build.log | grep -E "error:|warning:|BUILD" || true
+          grep -q "BUILD SUCCEEDED" build.log
+
+      - name: Empacotar o app
+        run: |
+          cd build/Build/Products/Release
+          ditto -c -k --keepParent AgendALLS.app ../../../../AgendALLS.zip
+          du -sh AgendALLS.app
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AgendALLS
+          path: AgendALLS.zip
+          retention-days: 14

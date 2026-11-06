@@ -132,6 +132,32 @@ final class BancoDeDados {
             chave TEXT PRIMARY KEY,
             dados TEXT NOT NULL
         );
+        """,
+        // 5: Remédios
+        """
+        CREATE TABLE remedio (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            nome TEXT NOT NULL,
+            laboratorio TEXT NOT NULL DEFAULT '',
+            dosagem TEXT NOT NULL DEFAULT '',
+            horarios TEXT NOT NULL DEFAULT '',
+            objetivo TEXT NOT NULL DEFAULT '',
+            estoque INTEGER NOT NULL DEFAULT 0,
+            por_dose INTEGER NOT NULL DEFAULT 1,
+            aviso_dias INTEGER NOT NULL DEFAULT 7,
+            tom REAL NOT NULL DEFAULT 0,
+            criado_em REAL NOT NULL DEFAULT 0
+        );
+        CREATE TABLE remedio_dose (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            remedio_id INTEGER NOT NULL REFERENCES remedio(id) ON DELETE CASCADE,
+            data TEXT NOT NULL,
+            horario TEXT NOT NULL,
+            situacao TEXT NOT NULL,
+            hora_real TEXT,
+            UNIQUE (remedio_id, data, horario)
+        );
+        CREATE INDEX idx_remedio_dose_data ON remedio_dose(data);
         """
     ]
 

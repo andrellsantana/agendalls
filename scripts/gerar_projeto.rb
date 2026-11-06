@@ -33,8 +33,8 @@ alvo.build_configurations.each do |config|
   s = config.build_settings
   s['PRODUCT_NAME'] = 'AgendALLS'
   s['PRODUCT_BUNDLE_IDENTIFIER'] = 'br.andres.agendalls'
-  s['MARKETING_VERSION'] = '0.4.0'
-  s['CURRENT_PROJECT_VERSION'] = '4'
+  s['MARKETING_VERSION'] = '0.5.0'
+  s['CURRENT_PROJECT_VERSION'] = '5'
   s['MACOSX_DEPLOYMENT_TARGET'] = '14.0'
   s['SWIFT_VERSION'] = '5.0'
   s['GENERATE_INFOPLIST_FILE'] = 'YES'

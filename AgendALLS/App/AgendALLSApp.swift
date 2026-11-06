@@ -5,6 +5,7 @@ struct AgendALLSApp: App {
     @State private var ponto = PontoStore()
     @State private var tarefas = TarefasStore()
     @State private var links = LinksStore()
+    @State private var remedios = RemediosStore()
     @State private var cofre: Cofre
     @State private var cadastro: CadastroStore
 
@@ -25,6 +26,7 @@ struct AgendALLSApp: App {
                 .environment(links)
                 .environment(cofre)
                 .environment(cadastro)
+                .environment(remedios)
                 .frame(minWidth: 960, minHeight: 640)
                 .task { await AlarmeManager.pedirPermissaoDeNotificacao() }
         }

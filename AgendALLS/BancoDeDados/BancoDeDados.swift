@@ -125,6 +125,13 @@ final class BancoDeDados {
             criado_em REAL NOT NULL DEFAULT 0
         );
         CREATE INDEX idx_link_categoria ON link(categoria);
+        """,
+        // 4: Cofre (dados criptografados: Cadastro e, depois, Senhas)
+        """
+        CREATE TABLE cofre (
+            chave TEXT PRIMARY KEY,
+            dados TEXT NOT NULL
+        );
         """
     ]
 

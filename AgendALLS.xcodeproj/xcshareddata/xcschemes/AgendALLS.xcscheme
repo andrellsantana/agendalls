@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5F8BAA6421A8D00B5ACE28C0"
+               BlueprintIdentifier = "8C1D31ACBD7C5D4E68BCAF05"
                BuildableName = "AgendALLS.app"
                BlueprintName = "AgendALLS"
                ReferencedContainer = "container:AgendALLS.xcodeproj">
@@ -30,7 +30,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5F8BAA6421A8D00B5ACE28C0"
+            BlueprintIdentifier = "8C1D31ACBD7C5D4E68BCAF05"
             BuildableName = "AgendALLS.app"
             BlueprintName = "AgendALLS"
             ReferencedContainer = "container:AgendALLS.xcodeproj">
@@ -53,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5F8BAA6421A8D00B5ACE28C0"
+            BlueprintIdentifier = "8C1D31ACBD7C5D4E68BCAF05"
             BuildableName = "AgendALLS.app"
             BlueprintName = "AgendALLS"
             ReferencedContainer = "container:AgendALLS.xcodeproj">
@@ -70,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5F8BAA6421A8D00B5ACE28C0"
+            BlueprintIdentifier = "8C1D31ACBD7C5D4E68BCAF05"
             BuildableName = "AgendALLS.app"
             BlueprintName = "AgendALLS"
             ReferencedContainer = "container:AgendALLS.xcodeproj">

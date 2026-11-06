@@ -112,8 +112,28 @@ final class BancoDeDados {
             criada_em REAL NOT NULL DEFAULT 0
         );
         CREATE INDEX idx_tarefa_ordem ON tarefa(ordem);
+        """,
+        // 3: Links
+        """
+        CREATE TABLE link (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            titulo TEXT NOT NULL,
+            url TEXT NOT NULL,
+            categoria TEXT NOT NULL DEFAULT 'Geral',
+            cor TEXT,
+            tem_logo INTEGER NOT NULL DEFAULT 0,
+            criado_em REAL NOT NULL DEFAULT 0
+        );
+        CREATE INDEX idx_link_categoria ON link(categoria);
         """
     ]
+
+    /// Pasta de arquivos do app (logotipos etc.), ao lado do banco.
+    static var pastaDoApp: URL {
+        let base = (try? FileManager.default.url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true))
+            ?? URL(fileURLWithPath: NSTemporaryDirectory())
+        return base.appendingPathComponent("AgendALLS", isDirectory: true)
+    }
 
     private func migrar() throws {
         let atual = try consultar("PRAGMA user_version").first?.first?.inteiro ?? 0

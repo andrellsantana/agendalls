@@ -3,6 +3,8 @@ import SwiftUI
 /// Janela de Configurações (menu AgendALLS › Ajustes…, ou ⌘,).
 struct ConfiguracoesView: View {
     @Environment(PontoStore.self) private var ponto
+    @Environment(LinksStore.self) private var links
+    @State private var navegadores: [Navegador] = []
 
     var body: some View {
         TabView {
@@ -26,6 +28,27 @@ struct ConfiguracoesView: View {
             }
             .formStyle(.grouped)
             .tabItem { Label("Ponto", systemImage: "clock") }
+
+            Form {
+                Section {
+                    Picker("Abrir links em", selection: Binding(get: { links.navegadorID }, set: { links.definirNavegador($0) })) {
+                        ForEach(navegadores) { n in
+                            Label {
+                                Text(n.nome)
+                            } icon: {
+                                Image(nsImage: NSWorkspace.shared.icon(forFile: n.url.path))
+                            }
+                            .tag(n.id)
+                        }
+                    }
+                    Text("A lista mostra os navegadores instalados neste Mac. Padrão: Safari.")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+            }
+            .formStyle(.grouped)
+            .onAppear { navegadores = Navegador.instalados() }
+            .tabItem { Label("Links", systemImage: "square.grid.2x2") }
 
             VStack(spacing: 10) {
                 Image(nsImage: NSApp.applicationIconImage)

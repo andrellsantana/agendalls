@@ -4,12 +4,14 @@ import SwiftUI
 struct AgendALLSApp: App {
     @State private var ponto = PontoStore()
     @State private var tarefas = TarefasStore()
+    @State private var links = LinksStore()
 
     var body: some Scene {
         WindowGroup("AgendALLS") {
             ContentView()
                 .environment(ponto)
                 .environment(tarefas)
+                .environment(links)
                 .frame(minWidth: 960, minHeight: 640)
                 .task { await AlarmeManager.pedirPermissaoDeNotificacao() }
         }
@@ -22,6 +24,7 @@ struct AgendALLSApp: App {
         Settings {
             ConfiguracoesView()
                 .environment(ponto)
+                .environment(links)
         }
     }
 }

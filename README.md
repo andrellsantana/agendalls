@@ -3,11 +3,12 @@
 Suíte de mini apps para macOS, em Swift + SwiftUI, com dados em SQLite.
 Desenvolvido por André S.
 
-## Versão 0.2.0
+## Versão 0.3.0
 
 - **Ponto**: calcula a saída padrão (9h entre entrada e saída, almoço incluído), mostra a janela de tolerância de ±10 min, aceita ajustes só do dia, simula "e se eu sair às…" e toca um alarme em tela cheia na hora de bater o ponto.
 - **Tarefas**: lista com prioridade por arrastar e soltar, e mesa com recortes de jornal rasgado (arrastáveis, marca-texto nas palavras do título, 6 cores de papel, 6 fundos de mesa). Botão direito: feito / não feito, editar, excluir.
-- Os outros mini apps (Links, Cadastro, Remédios, Senhas) aparecem na barra lateral e chegam nas próximas versões.
+- **Links**: cards por categoria (tags coloridas com #), em ordem alfabética; o logotipo é buscado no próprio site e dá a cor ao card; clique duplo abre no Safari ou no navegador escolhido em Configurações; arraste um card para outra categoria; botão direito: editar, mover, excluir.
+- Os outros mini apps ( Cadastro, Remédios, Senhas) aparecem na barra lateral e chegam nas próximas versões.
 
 ## Requisitos
 

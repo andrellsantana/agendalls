@@ -7,239 +7,257 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01142872906B11BD1415CB13 /* CadastroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89E92609452D61E007190B /* CadastroView.swift */; };
-		016E2EF1D209F16741054CEF /* Remedio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BE635F9C527074ECCC4B06 /* Remedio.swift */; };
-		05E6ADBC0745B4E159115434 /* CadastroStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2443A5B3857CBFB54409D1 /* CadastroStore.swift */; };
-		0A11D5C9E8764BB86B369D71 /* RecorteJornal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2539FFA5D3CA06C004DB345A /* RecorteJornal.swift */; };
-		19029FCC830F0CBD311ABA9C /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DE9A372591FDE98AF6F66B /* LinksView.swift */; };
-		1A6F2D6418955095C0ED7A93 /* BancoDeDados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E087CBC36FFD3A8F92411A /* BancoDeDados.swift */; };
-		1EB17B6A609762D045C2CDF5 /* RemediosStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BD59A8825D31CBFE413D90 /* RemediosStore.swift */; };
-		22B4C4FF04326995CE9F6486 /* PontoCalculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444F3F67FBBA0F81504CE904 /* PontoCalculo.swift */; };
-		599B88437FF8932C0D5DE2C3 /* Tarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5578A7013AD1044E2C79E1 /* Tarefa.swift */; };
-		5BEFFC217C8132729CE2D035 /* MesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AB62D13CC4F9F3F332BD0F /* MesaView.swift */; };
-		5CB9770B9156621F6E330FAC /* ListaTarefasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C42EEC1A7F6050EC1DB98 /* ListaTarefasView.swift */; };
-		60F9C18C1DD033AC05CE6006 /* LinksStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D92932A8820746CA19339 /* LinksStore.swift */; };
-		6CC6A875B66F643805126768 /* AlarmeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD43BE7ADCE87A854BCE27C /* AlarmeManager.swift */; };
-		704EF9FC2CC4E837B6316EFF /* Componentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CC7161B6FAF15C6C364E5E /* Componentes.swift */; };
-		8F1BDBA454705F42F321698E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99354C9D7F3FD57426E10795 /* ContentView.swift */; };
-		92177D39DCF08EE23C5FDB85 /* Cofre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E16850E553F201243A7C80 /* Cofre.swift */; };
-		9874E14432D6D7F0A831DD65 /* DadosCadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A92FC9520C891A295825EF /* DadosCadastro.swift */; };
-		99A584177FBA682A7F03D426 /* TarefasStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C274C7D31AD4283D0A8E25 /* TarefasStore.swift */; };
-		9BE7959C602C0CCEB0E1054C /* BuscadorLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F978D4D7D1E28D30934F36FB /* BuscadorLogo.swift */; };
-		A5E721EEF05EB5AA2D35A49B /* Formatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4373889401FD26F507643CAC /* Formatos.swift */; };
-		BBED98785E01ECA50CAE9029 /* RemediosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A848D3B433BBE12F7ADE2 /* RemediosView.swift */; };
-		C6B44487B606294B5799E9DE /* AgendALLSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0162F56FE7C97D0FD1011DA6 /* AgendALLSApp.swift */; };
-		DAF51AD22A50FD6BD572C3CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CB9F8CE29DF8F956EC6404 /* Assets.xcassets */; };
-		DB421E50DCABFB95338FAD38 /* TarefasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234B6868A201D623DE528E8 /* TarefasView.swift */; };
-		DF31F4AAE0495080256CCF35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFDC1467AC989ADA04D5A2D /* Cocoa.framework */; };
-		E89E80147FA9C78D7E523189 /* PontoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A9E5CCA1743E2528E8DE5 /* PontoStore.swift */; };
-		EC975EF55BE96AC60CEEB024 /* ConfiguracoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946A4A05BE4F00223B3C8ED /* ConfiguracoesView.swift */; };
-		EFB13A2D9D6B454CBEE190DA /* FotoCircular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C7DFC682F58FFB2DDC0567 /* FotoCircular.swift */; };
-		F456C1DAFAFD25AC8B758D02 /* ImpressaoCadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54FA1EF74DDE5CFE2C391B4 /* ImpressaoCadastro.swift */; };
-		F793D7E098B2981B07AE021C /* PontoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EDDAB660135178658D3074 /* PontoView.swift */; };
-		FF6AA3394144B012552C0234 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815CF31989064154B9956C9 /* Link.swift */; };
+		0C891BDC116BA72C2FA02B73 /* FotoCircular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E6B859AE0AD667488429C /* FotoCircular.swift */; };
+		151055FF7FD0216DB449FC7B /* Cofre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7250E3B185C109809E48AA2C /* Cofre.swift */; };
+		164A642ADD460E363584034D /* AlarmeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694D352C680A7315CF9D840 /* AlarmeManager.swift */; };
+		174E8326107DB3645EE91BF0 /* PontoCalculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45263DBF383D9E240305D25 /* PontoCalculo.swift */; };
+		1C302FAFF11930B7F3E48D67 /* CadastroStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B791905A6FBA5C89ED060 /* CadastroStore.swift */; };
+		23BFABD66145297F4D06095E /* DadosCadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A196E1DF358CD820B5AD791 /* DadosCadastro.swift */; };
+		262BBFBCB25034A3208FC445 /* AgendALLSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3858E46571A54DB91F12F5 /* AgendALLSApp.swift */; };
+		296DD890A167F572AD11CCA5 /* CadastroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595437D1FD64D38FBC5644DF /* CadastroView.swift */; };
+		2FB110FFC7F67A46614B7CDA /* BuscadorLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEDE864A470E63C8170423 /* BuscadorLogo.swift */; };
+		46EC294B3637436F3EBF5A49 /* BancoDeDados.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127C9A3FAD966FB9605AC4E /* BancoDeDados.swift */; };
+		487E51B636864D643FE932C2 /* LinksStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF811948DF881B876D90B40 /* LinksStore.swift */; };
+		53FB748CD3DDEDA107242F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64ED86DDD2D2A87BBDF1F5ED /* Assets.xcassets */; };
+		5B99DF7998899C47982A6193 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43B95AB709CCC2532D1C22 /* Link.swift */; };
+		6A9B7D89078A32413C711A4F /* Tarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D12548F291DB45A17C2D8 /* Tarefa.swift */; };
+		7A465EB672EF033FFFE4F752 /* ListaTarefasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F93B9536F1C16E1900D6F4 /* ListaTarefasView.swift */; };
+		8CCD646F7FADF6F72232E2B5 /* Remedio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF752CBC141C1D9FC706FC /* Remedio.swift */; };
+		8E2C830A9C4DEE7D7684E638 /* Formatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3C2B8E0B12A94E355DCC5 /* Formatos.swift */; };
+		912A33EF8D67F10E6ABB4B56 /* RemediosStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592CDA29E4B0B855F245EC7 /* RemediosStore.swift */; };
+		9824F78B9AB5FC36657A4A72 /* ImpressaoCadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D074C12B004DED7F142532 /* ImpressaoCadastro.swift */; };
+		9D32B6B98815DFCE6F8BCAF0 /* RemediosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21A7E562D83D74ED971AC0 /* RemediosView.swift */; };
+		A6599124365148E6A4AE94A7 /* RecorteJornal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFE6814CC1A83284F881FC /* RecorteJornal.swift */; };
+		B6AFBF12564BB78EFEB3B16B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543EE2A9471896644AC64A81 /* Cocoa.framework */; };
+		C1CFEA639019D09937C7CABE /* MesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63621EA8C853A84CB9CB1303 /* MesaView.swift */; };
+		C4BD98C3CC58D387E7C1288B /* TarefasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD34128CAFB929E58447EDD /* TarefasView.swift */; };
+		CC36EC5C82ED1640A387C622 /* PontoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D14691633D3E3790898D4C /* PontoView.swift */; };
+		D018DB641FD068EC4E87FFB3 /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04F7DC1C594F5BDE68140E /* LinksView.swift */; };
+		D365D1C2F01CF37FCCBB1BC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8365BEEE519DDE15E9DFCF /* ContentView.swift */; };
+		D73AF7D23C1D662DBBAA9A59 /* DadosSenhas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D74BEBB5073150006A5A05 /* DadosSenhas.swift */; };
+		D8B37789C264AF50A468DFEB /* PontoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D79C16F9373C3462C2B26A /* PontoStore.swift */; };
+		D9D14767D0E5C98D7EBFD0F8 /* SenhasStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F371B1152C946857B1FFF8 /* SenhasStore.swift */; };
+		DB1FA45322818C8E9106B8F8 /* Componentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA7791241465CA2974763A /* Componentes.swift */; };
+		E0CDFF2863CA28B7980DC4CE /* TarefasStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F01C5A24DD93E53661285E /* TarefasStore.swift */; };
+		E29DC4AC58CE2CD043D6955B /* SenhasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3131AE115559AD41E80972F /* SenhasView.swift */; };
+		FF18BBE80D7DDAD72C76B33F /* ConfiguracoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6E100A49DA33205C0A18BF /* ConfiguracoesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0162F56FE7C97D0FD1011DA6 /* AgendALLSApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AgendALLSApp.swift; sourceTree = "<group>"; };
-		05C274C7D31AD4283D0A8E25 /* TarefasStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TarefasStore.swift; sourceTree = "<group>"; };
-		15E087CBC36FFD3A8F92411A /* BancoDeDados.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BancoDeDados.swift; sourceTree = "<group>"; };
-		2539FFA5D3CA06C004DB345A /* RecorteJornal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecorteJornal.swift; sourceTree = "<group>"; };
-		2F5578A7013AD1044E2C79E1 /* Tarefa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tarefa.swift; sourceTree = "<group>"; };
-		37EDDAB660135178658D3074 /* PontoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PontoView.swift; sourceTree = "<group>"; };
-		3815CF31989064154B9956C9 /* Link.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
-		41C7DFC682F58FFB2DDC0567 /* FotoCircular.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FotoCircular.swift; sourceTree = "<group>"; };
-		4373889401FD26F507643CAC /* Formatos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Formatos.swift; sourceTree = "<group>"; };
-		444F3F67FBBA0F81504CE904 /* PontoCalculo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PontoCalculo.swift; sourceTree = "<group>"; };
-		4946A4A05BE4F00223B3C8ED /* ConfiguracoesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConfiguracoesView.swift; sourceTree = "<group>"; };
-		4E2443A5B3857CBFB54409D1 /* CadastroStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CadastroStore.swift; sourceTree = "<group>"; };
-		50CB9F8CE29DF8F956EC6404 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		545A9E5CCA1743E2528E8DE5 /* PontoStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PontoStore.swift; sourceTree = "<group>"; };
-		687F91B09708E826281A4230 /* AgendALLS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendALLS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EFDC1467AC989ADA04D5A2D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		70CC7161B6FAF15C6C364E5E /* Componentes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Componentes.swift; sourceTree = "<group>"; };
-		75E16850E553F201243A7C80 /* Cofre.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Cofre.swift; sourceTree = "<group>"; };
-		7AD43BE7ADCE87A854BCE27C /* AlarmeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlarmeManager.swift; sourceTree = "<group>"; };
-		85BE635F9C527074ECCC4B06 /* Remedio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Remedio.swift; sourceTree = "<group>"; };
-		9234B6868A201D623DE528E8 /* TarefasView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TarefasView.swift; sourceTree = "<group>"; };
-		99354C9D7F3FD57426E10795 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AC8C42EEC1A7F6050EC1DB98 /* ListaTarefasView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListaTarefasView.swift; sourceTree = "<group>"; };
-		B9BD59A8825D31CBFE413D90 /* RemediosStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemediosStore.swift; sourceTree = "<group>"; };
-		C9A92FC9520C891A295825EF /* DadosCadastro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DadosCadastro.swift; sourceTree = "<group>"; };
-		CD9A848D3B433BBE12F7ADE2 /* RemediosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemediosView.swift; sourceTree = "<group>"; };
-		E54FA1EF74DDE5CFE2C391B4 /* ImpressaoCadastro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImpressaoCadastro.swift; sourceTree = "<group>"; };
-		F35D92932A8820746CA19339 /* LinksStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinksStore.swift; sourceTree = "<group>"; };
-		F3DE9A372591FDE98AF6F66B /* LinksView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
-		F4AB62D13CC4F9F3F332BD0F /* MesaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MesaView.swift; sourceTree = "<group>"; };
-		F978D4D7D1E28D30934F36FB /* BuscadorLogo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BuscadorLogo.swift; sourceTree = "<group>"; };
-		FC89E92609452D61E007190B /* CadastroView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CadastroView.swift; sourceTree = "<group>"; };
+		00A3C2B8E0B12A94E355DCC5 /* Formatos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Formatos.swift; sourceTree = "<group>"; };
+		09D79C16F9373C3462C2B26A /* PontoStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PontoStore.swift; sourceTree = "<group>"; };
+		1A196E1DF358CD820B5AD791 /* DadosCadastro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DadosCadastro.swift; sourceTree = "<group>"; };
+		2BD34128CAFB929E58447EDD /* TarefasView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TarefasView.swift; sourceTree = "<group>"; };
+		2D3858E46571A54DB91F12F5 /* AgendALLSApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AgendALLSApp.swift; sourceTree = "<group>"; };
+		2DCF752CBC141C1D9FC706FC /* Remedio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Remedio.swift; sourceTree = "<group>"; };
+		30F01C5A24DD93E53661285E /* TarefasStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TarefasStore.swift; sourceTree = "<group>"; };
+		36D074C12B004DED7F142532 /* ImpressaoCadastro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImpressaoCadastro.swift; sourceTree = "<group>"; };
+		521D12548F291DB45A17C2D8 /* Tarefa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tarefa.swift; sourceTree = "<group>"; };
+		543EE2A9471896644AC64A81 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		595437D1FD64D38FBC5644DF /* CadastroView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CadastroView.swift; sourceTree = "<group>"; };
+		63621EA8C853A84CB9CB1303 /* MesaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MesaView.swift; sourceTree = "<group>"; };
+		64ED86DDD2D2A87BBDF1F5ED /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AF811948DF881B876D90B40 /* LinksStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinksStore.swift; sourceTree = "<group>"; };
+		6BEFE6814CC1A83284F881FC /* RecorteJornal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecorteJornal.swift; sourceTree = "<group>"; };
+		6E04F7DC1C594F5BDE68140E /* LinksView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
+		7250E3B185C109809E48AA2C /* Cofre.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Cofre.swift; sourceTree = "<group>"; };
+		726E6B859AE0AD667488429C /* FotoCircular.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FotoCircular.swift; sourceTree = "<group>"; };
+		83D74BEBB5073150006A5A05 /* DadosSenhas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DadosSenhas.swift; sourceTree = "<group>"; };
+		89AA7791241465CA2974763A /* Componentes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Componentes.swift; sourceTree = "<group>"; };
+		8B8365BEEE519DDE15E9DFCF /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92EEDE864A470E63C8170423 /* BuscadorLogo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BuscadorLogo.swift; sourceTree = "<group>"; };
+		A592CDA29E4B0B855F245EC7 /* RemediosStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemediosStore.swift; sourceTree = "<group>"; };
+		AA43B95AB709CCC2532D1C22 /* Link.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		AC21A7E562D83D74ED971AC0 /* RemediosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemediosView.swift; sourceTree = "<group>"; };
+		B694D352C680A7315CF9D840 /* AlarmeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlarmeManager.swift; sourceTree = "<group>"; };
+		C45263DBF383D9E240305D25 /* PontoCalculo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PontoCalculo.swift; sourceTree = "<group>"; };
+		D1F93B9536F1C16E1900D6F4 /* ListaTarefasView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListaTarefasView.swift; sourceTree = "<group>"; };
+		D3131AE115559AD41E80972F /* SenhasView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SenhasView.swift; sourceTree = "<group>"; };
+		D3D14691633D3E3790898D4C /* PontoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PontoView.swift; sourceTree = "<group>"; };
+		E127C9A3FAD966FB9605AC4E /* BancoDeDados.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BancoDeDados.swift; sourceTree = "<group>"; };
+		E4D897B017D0E9310E124D41 /* AgendALLS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendALLS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6E100A49DA33205C0A18BF /* ConfiguracoesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConfiguracoesView.swift; sourceTree = "<group>"; };
+		ED4B791905A6FBA5C89ED060 /* CadastroStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CadastroStore.swift; sourceTree = "<group>"; };
+		F3F371B1152C946857B1FFF8 /* SenhasStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SenhasStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6BD44FD434B834489806159E /* Frameworks */ = {
+		55803AD28F0630C3DF3B451D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF31F4AAE0495080256CCF35 /* Cocoa.framework in Frameworks */,
+				B6AFBF12564BB78EFEB3B16B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16467E9FA6D5374E47C4FB48 /* Links */ = {
+		33F746D4143383779C4F77F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F978D4D7D1E28D30934F36FB /* BuscadorLogo.swift */,
-				3815CF31989064154B9956C9 /* Link.swift */,
-				F35D92932A8820746CA19339 /* LinksStore.swift */,
-				F3DE9A372591FDE98AF6F66B /* LinksView.swift */,
+				51F8D04D1D1366F1CAB39C7F /* OS X */,
 			);
-			name = Links;
-			path = Links;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		235FB241984FB6E1815866EA /* Products */ = {
+		51F8D04D1D1366F1CAB39C7F /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				687F91B09708E826281A4230 /* AgendALLS.app */,
+				543EE2A9471896644AC64A81 /* Cocoa.framework */,
 			);
-			name = Products;
+			name = "OS X";
 			sourceTree = "<group>";
 		};
-		3179FA71669DFE45A40D530B /* Ponto */ = {
+		5B13E1E30F6B395100A485A4 /* Ponto */ = {
 			isa = PBXGroup;
 			children = (
-				7AD43BE7ADCE87A854BCE27C /* AlarmeManager.swift */,
-				444F3F67FBBA0F81504CE904 /* PontoCalculo.swift */,
-				545A9E5CCA1743E2528E8DE5 /* PontoStore.swift */,
-				37EDDAB660135178658D3074 /* PontoView.swift */,
+				B694D352C680A7315CF9D840 /* AlarmeManager.swift */,
+				C45263DBF383D9E240305D25 /* PontoCalculo.swift */,
+				09D79C16F9373C3462C2B26A /* PontoStore.swift */,
+				D3D14691633D3E3790898D4C /* PontoView.swift */,
 			);
 			name = Ponto;
 			path = Ponto;
 			sourceTree = "<group>";
 		};
-		3E3683AA3F45A9806C08BB8B /* Comum */ = {
+		6BE73D3F2050FE5CC2A79A29 /* AgendALLS */ = {
 			isa = PBXGroup;
 			children = (
-				75E16850E553F201243A7C80 /* Cofre.swift */,
-				70CC7161B6FAF15C6C364E5E /* Componentes.swift */,
-				4373889401FD26F507643CAC /* Formatos.swift */,
-			);
-			name = Comum;
-			path = Comum;
-			sourceTree = "<group>";
-		};
-		4B3FB5CFD9CC928FC0D88A05 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				0162F56FE7C97D0FD1011DA6 /* AgendALLSApp.swift */,
-				4946A4A05BE4F00223B3C8ED /* ConfiguracoesView.swift */,
-				99354C9D7F3FD57426E10795 /* ContentView.swift */,
-			);
-			name = App;
-			path = App;
-			sourceTree = "<group>";
-		};
-		595728D1D5E3440C22946C95 /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				6EFDC1467AC989ADA04D5A2D /* Cocoa.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
-		85520CD3CD8A6E9E7220E00B /* Tarefas */ = {
-			isa = PBXGroup;
-			children = (
-				AC8C42EEC1A7F6050EC1DB98 /* ListaTarefasView.swift */,
-				F4AB62D13CC4F9F3F332BD0F /* MesaView.swift */,
-				2539FFA5D3CA06C004DB345A /* RecorteJornal.swift */,
-				2F5578A7013AD1044E2C79E1 /* Tarefa.swift */,
-				05C274C7D31AD4283D0A8E25 /* TarefasStore.swift */,
-				9234B6868A201D623DE528E8 /* TarefasView.swift */,
-			);
-			name = Tarefas;
-			path = Tarefas;
-			sourceTree = "<group>";
-		};
-		87DE50D4D5A305D54EE69EB3 /* Remedios */ = {
-			isa = PBXGroup;
-			children = (
-				85BE635F9C527074ECCC4B06 /* Remedio.swift */,
-				B9BD59A8825D31CBFE413D90 /* RemediosStore.swift */,
-				CD9A848D3B433BBE12F7ADE2 /* RemediosView.swift */,
-			);
-			name = Remedios;
-			path = Remedios;
-			sourceTree = "<group>";
-		};
-		8ED0561EC89D910C3BF37311 /* BancoDeDados */ = {
-			isa = PBXGroup;
-			children = (
-				15E087CBC36FFD3A8F92411A /* BancoDeDados.swift */,
-			);
-			name = BancoDeDados;
-			path = BancoDeDados;
-			sourceTree = "<group>";
-		};
-		916E536519BD4F1D5E412BD0 /* Cadastro */ = {
-			isa = PBXGroup;
-			children = (
-				4E2443A5B3857CBFB54409D1 /* CadastroStore.swift */,
-				FC89E92609452D61E007190B /* CadastroView.swift */,
-				C9A92FC9520C891A295825EF /* DadosCadastro.swift */,
-				41C7DFC682F58FFB2DDC0567 /* FotoCircular.swift */,
-				E54FA1EF74DDE5CFE2C391B4 /* ImpressaoCadastro.swift */,
-			);
-			name = Cadastro;
-			path = Cadastro;
-			sourceTree = "<group>";
-		};
-		AC2FACDD21B3CEAD8AFD9C79 /* AgendALLS */ = {
-			isa = PBXGroup;
-			children = (
-				4B3FB5CFD9CC928FC0D88A05 /* App */,
-				8ED0561EC89D910C3BF37311 /* BancoDeDados */,
-				916E536519BD4F1D5E412BD0 /* Cadastro */,
-				3E3683AA3F45A9806C08BB8B /* Comum */,
-				16467E9FA6D5374E47C4FB48 /* Links */,
-				3179FA71669DFE45A40D530B /* Ponto */,
-				87DE50D4D5A305D54EE69EB3 /* Remedios */,
-				85520CD3CD8A6E9E7220E00B /* Tarefas */,
-				50CB9F8CE29DF8F956EC6404 /* Assets.xcassets */,
+				719A75AACCF17C3E8C20D967 /* App */,
+				B6AF043298E5E4081D7CFC48 /* BancoDeDados */,
+				6C66B4F80474083EACC1B030 /* Cadastro */,
+				AC5216C9406D1A094ADD4D17 /* Comum */,
+				C33095A2636B58C3EE1F8359 /* Links */,
+				5B13E1E30F6B395100A485A4 /* Ponto */,
+				8ED508A32EE013388CC8ACFB /* Remedios */,
+				798FB02625629C111B4CDD4E /* Senhas */,
+				BD6F5828D637AAE4E658ACD5 /* Tarefas */,
+				64ED86DDD2D2A87BBDF1F5ED /* Assets.xcassets */,
 			);
 			name = AgendALLS;
 			path = AgendALLS;
 			sourceTree = "<group>";
 		};
-		AF6FC2E52C9AAA034A952A9A /* Frameworks */ = {
+		6C66B4F80474083EACC1B030 /* Cadastro */ = {
 			isa = PBXGroup;
 			children = (
-				595728D1D5E3440C22946C95 /* OS X */,
+				ED4B791905A6FBA5C89ED060 /* CadastroStore.swift */,
+				595437D1FD64D38FBC5644DF /* CadastroView.swift */,
+				1A196E1DF358CD820B5AD791 /* DadosCadastro.swift */,
+				726E6B859AE0AD667488429C /* FotoCircular.swift */,
+				36D074C12B004DED7F142532 /* ImpressaoCadastro.swift */,
 			);
-			name = Frameworks;
+			name = Cadastro;
+			path = Cadastro;
 			sourceTree = "<group>";
 		};
-		F8FD7D4D042C4B2A060846B4 = {
+		719A75AACCF17C3E8C20D967 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				235FB241984FB6E1815866EA /* Products */,
-				AF6FC2E52C9AAA034A952A9A /* Frameworks */,
-				AC2FACDD21B3CEAD8AFD9C79 /* AgendALLS */,
+				2D3858E46571A54DB91F12F5 /* AgendALLSApp.swift */,
+				EB6E100A49DA33205C0A18BF /* ConfiguracoesView.swift */,
+				8B8365BEEE519DDE15E9DFCF /* ContentView.swift */,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		798FB02625629C111B4CDD4E /* Senhas */ = {
+			isa = PBXGroup;
+			children = (
+				83D74BEBB5073150006A5A05 /* DadosSenhas.swift */,
+				F3F371B1152C946857B1FFF8 /* SenhasStore.swift */,
+				D3131AE115559AD41E80972F /* SenhasView.swift */,
+			);
+			name = Senhas;
+			path = Senhas;
+			sourceTree = "<group>";
+		};
+		83FBBEB29153113AA47FCAB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4D897B017D0E9310E124D41 /* AgendALLS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED508A32EE013388CC8ACFB /* Remedios */ = {
+			isa = PBXGroup;
+			children = (
+				2DCF752CBC141C1D9FC706FC /* Remedio.swift */,
+				A592CDA29E4B0B855F245EC7 /* RemediosStore.swift */,
+				AC21A7E562D83D74ED971AC0 /* RemediosView.swift */,
+			);
+			name = Remedios;
+			path = Remedios;
+			sourceTree = "<group>";
+		};
+		AC5216C9406D1A094ADD4D17 /* Comum */ = {
+			isa = PBXGroup;
+			children = (
+				7250E3B185C109809E48AA2C /* Cofre.swift */,
+				89AA7791241465CA2974763A /* Componentes.swift */,
+				00A3C2B8E0B12A94E355DCC5 /* Formatos.swift */,
+			);
+			name = Comum;
+			path = Comum;
+			sourceTree = "<group>";
+		};
+		B6AF043298E5E4081D7CFC48 /* BancoDeDados */ = {
+			isa = PBXGroup;
+			children = (
+				E127C9A3FAD966FB9605AC4E /* BancoDeDados.swift */,
+			);
+			name = BancoDeDados;
+			path = BancoDeDados;
+			sourceTree = "<group>";
+		};
+		BD6F5828D637AAE4E658ACD5 /* Tarefas */ = {
+			isa = PBXGroup;
+			children = (
+				D1F93B9536F1C16E1900D6F4 /* ListaTarefasView.swift */,
+				63621EA8C853A84CB9CB1303 /* MesaView.swift */,
+				6BEFE6814CC1A83284F881FC /* RecorteJornal.swift */,
+				521D12548F291DB45A17C2D8 /* Tarefa.swift */,
+				30F01C5A24DD93E53661285E /* TarefasStore.swift */,
+				2BD34128CAFB929E58447EDD /* TarefasView.swift */,
+			);
+			name = Tarefas;
+			path = Tarefas;
+			sourceTree = "<group>";
+		};
+		C33095A2636B58C3EE1F8359 /* Links */ = {
+			isa = PBXGroup;
+			children = (
+				92EEDE864A470E63C8170423 /* BuscadorLogo.swift */,
+				AA43B95AB709CCC2532D1C22 /* Link.swift */,
+				6AF811948DF881B876D90B40 /* LinksStore.swift */,
+				6E04F7DC1C594F5BDE68140E /* LinksView.swift */,
+			);
+			name = Links;
+			path = Links;
+			sourceTree = "<group>";
+		};
+		F34A1E05DDB3E3AF963481EA = {
+			isa = PBXGroup;
+			children = (
+				83FBBEB29153113AA47FCAB9 /* Products */,
+				33F746D4143383779C4F77F0 /* Frameworks */,
+				6BE73D3F2050FE5CC2A79A29 /* AgendALLS */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F89DB79A261D57A448F54D06 /* AgendALLS */ = {
+		79D937319BB4B66F84D34CD4 /* AgendALLS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2A7DE082B94E6FDD5140C4E /* Build configuration list for PBXNativeTarget "AgendALLS" */;
+			buildConfigurationList = 06F0B244B93B02247041CEA2 /* Build configuration list for PBXNativeTarget "AgendALLS" */;
 			buildPhases = (
-				423674AE1D7EA0D0B97DE290 /* Sources */,
-				6BD44FD434B834489806159E /* Frameworks */,
-				0E332CD7A9D62F22EB281BED /* Resources */,
+				9BFE962A3E99882C75DB5B84 /* Sources */,
+				55803AD28F0630C3DF3B451D /* Frameworks */,
+				D654FEAB8C03106775FD196E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -247,19 +265,19 @@
 			);
 			name = AgendALLS;
 			productName = AgendALLS;
-			productReference = 687F91B09708E826281A4230 /* AgendALLS.app */;
+			productReference = E4D897B017D0E9310E124D41 /* AgendALLS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F8CE4EF3716245761B71EDA6 /* Project object */ = {
+		6F884F6AACBCB303B386A78E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = CEEC6234A10C4309BFC68904 /* Build configuration list for PBXProject "AgendALLS" */;
+			buildConfigurationList = 8BFC20589E0436C9F2E0BB0A /* Build configuration list for PBXProject "AgendALLS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = "pt-BR";
 			hasScannedForEncodings = 0;
@@ -267,70 +285,102 @@
 				"pt-BR",
 				Base,
 			);
-			mainGroup = F8FD7D4D042C4B2A060846B4;
+			mainGroup = F34A1E05DDB3E3AF963481EA;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 100;
-			productRefGroup = 235FB241984FB6E1815866EA /* Products */;
+			productRefGroup = 83FBBEB29153113AA47FCAB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F89DB79A261D57A448F54D06 /* AgendALLS */,
+				79D937319BB4B66F84D34CD4 /* AgendALLS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0E332CD7A9D62F22EB281BED /* Resources */ = {
+		D654FEAB8C03106775FD196E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAF51AD22A50FD6BD572C3CE /* Assets.xcassets in Resources */,
+				53FB748CD3DDEDA107242F89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		423674AE1D7EA0D0B97DE290 /* Sources */ = {
+		9BFE962A3E99882C75DB5B84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6B44487B606294B5799E9DE /* AgendALLSApp.swift in Sources */,
-				EC975EF55BE96AC60CEEB024 /* ConfiguracoesView.swift in Sources */,
-				8F1BDBA454705F42F321698E /* ContentView.swift in Sources */,
-				1A6F2D6418955095C0ED7A93 /* BancoDeDados.swift in Sources */,
-				05E6ADBC0745B4E159115434 /* CadastroStore.swift in Sources */,
-				01142872906B11BD1415CB13 /* CadastroView.swift in Sources */,
-				9874E14432D6D7F0A831DD65 /* DadosCadastro.swift in Sources */,
-				EFB13A2D9D6B454CBEE190DA /* FotoCircular.swift in Sources */,
-				F456C1DAFAFD25AC8B758D02 /* ImpressaoCadastro.swift in Sources */,
-				92177D39DCF08EE23C5FDB85 /* Cofre.swift in Sources */,
-				704EF9FC2CC4E837B6316EFF /* Componentes.swift in Sources */,
-				A5E721EEF05EB5AA2D35A49B /* Formatos.swift in Sources */,
-				9BE7959C602C0CCEB0E1054C /* BuscadorLogo.swift in Sources */,
-				FF6AA3394144B012552C0234 /* Link.swift in Sources */,
-				60F9C18C1DD033AC05CE6006 /* LinksStore.swift in Sources */,
-				19029FCC830F0CBD311ABA9C /* LinksView.swift in Sources */,
-				6CC6A875B66F643805126768 /* AlarmeManager.swift in Sources */,
-				22B4C4FF04326995CE9F6486 /* PontoCalculo.swift in Sources */,
-				E89E80147FA9C78D7E523189 /* PontoStore.swift in Sources */,
-				F793D7E098B2981B07AE021C /* PontoView.swift in Sources */,
-				016E2EF1D209F16741054CEF /* Remedio.swift in Sources */,
-				1EB17B6A609762D045C2CDF5 /* RemediosStore.swift in Sources */,
-				BBED98785E01ECA50CAE9029 /* RemediosView.swift in Sources */,
-				5CB9770B9156621F6E330FAC /* ListaTarefasView.swift in Sources */,
-				5BEFFC217C8132729CE2D035 /* MesaView.swift in Sources */,
-				0A11D5C9E8764BB86B369D71 /* RecorteJornal.swift in Sources */,
-				599B88437FF8932C0D5DE2C3 /* Tarefa.swift in Sources */,
-				99A584177FBA682A7F03D426 /* TarefasStore.swift in Sources */,
-				DB421E50DCABFB95338FAD38 /* TarefasView.swift in Sources */,
+				262BBFBCB25034A3208FC445 /* AgendALLSApp.swift in Sources */,
+				FF18BBE80D7DDAD72C76B33F /* ConfiguracoesView.swift in Sources */,
+				D365D1C2F01CF37FCCBB1BC8 /* ContentView.swift in Sources */,
+				46EC294B3637436F3EBF5A49 /* BancoDeDados.swift in Sources */,
+				1C302FAFF11930B7F3E48D67 /* CadastroStore.swift in Sources */,
+				296DD890A167F572AD11CCA5 /* CadastroView.swift in Sources */,
+				23BFABD66145297F4D06095E /* DadosCadastro.swift in Sources */,
+				0C891BDC116BA72C2FA02B73 /* FotoCircular.swift in Sources */,
+				9824F78B9AB5FC36657A4A72 /* ImpressaoCadastro.swift in Sources */,
+				151055FF7FD0216DB449FC7B /* Cofre.swift in Sources */,
+				DB1FA45322818C8E9106B8F8 /* Componentes.swift in Sources */,
+				8E2C830A9C4DEE7D7684E638 /* Formatos.swift in Sources */,
+				2FB110FFC7F67A46614B7CDA /* BuscadorLogo.swift in Sources */,
+				5B99DF7998899C47982A6193 /* Link.swift in Sources */,
+				487E51B636864D643FE932C2 /* LinksStore.swift in Sources */,
+				D018DB641FD068EC4E87FFB3 /* LinksView.swift in Sources */,
+				164A642ADD460E363584034D /* AlarmeManager.swift in Sources */,
+				174E8326107DB3645EE91BF0 /* PontoCalculo.swift in Sources */,
+				D8B37789C264AF50A468DFEB /* PontoStore.swift in Sources */,
+				CC36EC5C82ED1640A387C622 /* PontoView.swift in Sources */,
+				8CCD646F7FADF6F72232E2B5 /* Remedio.swift in Sources */,
+				912A33EF8D67F10E6ABB4B56 /* RemediosStore.swift in Sources */,
+				9D32B6B98815DFCE6F8BCAF0 /* RemediosView.swift in Sources */,
+				D73AF7D23C1D662DBBAA9A59 /* DadosSenhas.swift in Sources */,
+				D9D14767D0E5C98D7EBFD0F8 /* SenhasStore.swift in Sources */,
+				E29DC4AC58CE2CD043D6955B /* SenhasView.swift in Sources */,
+				7A465EB672EF033FFFE4F752 /* ListaTarefasView.swift in Sources */,
+				C1CFEA639019D09937C7CABE /* MesaView.swift in Sources */,
+				A6599124365148E6A4AE94A7 /* RecorteJornal.swift in Sources */,
+				6A9B7D89078A32413C711A4F /* Tarefa.swift in Sources */,
+				E0CDFF2863CA28B7980DC4CE /* TarefasStore.swift in Sources */,
+				C4BD98C3CC58D387E7C1288B /* TarefasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0CA169252DEDD13FBB6A9CA2 /* Release */ = {
+		8421DF16247973019CDDF002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AgendALLS;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Desenvolvido por André S.";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.andres.agendalls;
+				PRODUCT_NAME = AgendALLS;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8B408AD36E4A909BD4880403 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -384,7 +434,7 @@
 			};
 			name = Release;
 		};
-		9F89A65CAADFFD0DCB31F6DE /* Release */ = {
+		906CA91D12E494DFCD865132 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -392,7 +442,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -401,7 +451,7 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Desenvolvido por André S.";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.5.0;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-lsqlite3",
@@ -413,7 +463,7 @@
 			};
 			name = Release;
 		};
-		E7F53123F73570BB8BF084B7 /* Debug */ = {
+		A15FBD8B1F0EC31C17599EB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -474,57 +524,28 @@
 			};
 			name = Debug;
 		};
-		F6297C77C3F961685689A699 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = AgendALLS;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Desenvolvido por André S.";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.5.0;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lsqlite3",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.andres.agendalls;
-				PRODUCT_NAME = AgendALLS;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2A7DE082B94E6FDD5140C4E /* Build configuration list for PBXNativeTarget "AgendALLS" */ = {
+		06F0B244B93B02247041CEA2 /* Build configuration list for PBXNativeTarget "AgendALLS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F89A65CAADFFD0DCB31F6DE /* Release */,
-				F6297C77C3F961685689A699 /* Debug */,
+				906CA91D12E494DFCD865132 /* Release */,
+				8421DF16247973019CDDF002 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEEC6234A10C4309BFC68904 /* Build configuration list for PBXProject "AgendALLS" */ = {
+		8BFC20589E0436C9F2E0BB0A /* Build configuration list for PBXProject "AgendALLS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7F53123F73570BB8BF084B7 /* Debug */,
-				0CA169252DEDD13FBB6A9CA2 /* Release */,
+				A15FBD8B1F0EC31C17599EB8 /* Debug */,
+				8B408AD36E4A909BD4880403 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F8CE4EF3716245761B71EDA6 /* Project object */;
+	rootObject = 6F884F6AACBCB303B386A78E /* Project object */;
 }

@@ -3,14 +3,14 @@
 Suíte de mini apps para macOS, em Swift + SwiftUI, com dados em SQLite.
 Desenvolvido por André S.
 
-## Versão 0.5.0
+## Versão 1.0.0
 
 - **Ponto**: calcula a saída padrão (9h entre entrada e saída, almoço incluído), mostra a janela de tolerância de ±10 min, aceita ajustes só do dia, simula "e se eu sair às…" e toca um alarme em tela cheia na hora de bater o ponto.
 - **Tarefas**: lista com prioridade por arrastar e soltar, e mesa com recortes de jornal rasgado (arrastáveis, marca-texto nas palavras do título, 6 cores de papel, 6 fundos de mesa). Botão direito: feito / não feito, editar, excluir.
 - **Links**: cards por categoria (tags coloridas com #), em ordem alfabética; o logotipo é buscado no próprio site e dá a cor ao card; clique duplo abre no Safari ou no navegador escolhido em Configurações; arraste um card para outra categoria; botão direito: editar, mover, excluir.
 - **Cadastro**: dados pessoais, documentos (com botão de copiar), contato, endereço, perfil, experiência, formação, idiomas, habilidades, programas e interesses; foto enquadrada no círculo; impressão e PDF em quatro modelos (currículo no tema azul-marinho, ficha completa, só documentos, personalizado). Abre só com Touch ID, tranca após 1 minuto sem uso e fica criptografado no banco.
 - **Remédios**: nome, laboratório, dosagem, horários e objetivo; faixa "Hoje" com as doses do dia; clique para registrar se tomou na hora certa, fora do horário ou não tomou; controle de estoque (dose tomada desconta) com aviso quando estiver acabando.
-- O mini app Senhas aparece na barra lateral e chega na próxima versão.
+- **Senhas**: categorias em árvore com recuo (subcategorias), busca, usuário e senha com copiar (a área de transferência é limpa após 1 minuto), força da senha, código 2FA, site e notas; saúde das senhas (fracas ou repetidas); gerador de senhas e de frases. Abre só com Touch ID, tranca após 1 minuto sem uso e fica criptografado.
 
 ## Requisitos
 

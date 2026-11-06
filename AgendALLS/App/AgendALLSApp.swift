@@ -8,14 +8,18 @@ struct AgendALLSApp: App {
     @State private var remedios = RemediosStore()
     @State private var cofre: Cofre
     @State private var cadastro: CadastroStore
+    @State private var senhas: SenhasStore
 
     init() {
         let cofre = Cofre()
         let cadastro = CadastroStore()
+        let senhas = SenhasStore()
         // Ao trancar, os dados sensíveis saem da memória.
         cofre.aoTrancar.append { [weak cadastro] in cadastro?.descarregar() }
+        cofre.aoTrancar.append { [weak senhas] in senhas?.descarregar() }
         _cofre = State(initialValue: cofre)
         _cadastro = State(initialValue: cadastro)
+        _senhas = State(initialValue: senhas)
     }
 
     var body: some Scene {
@@ -27,6 +31,7 @@ struct AgendALLSApp: App {
                 .environment(cofre)
                 .environment(cadastro)
                 .environment(remedios)
+                .environment(senhas)
                 .frame(minWidth: 960, minHeight: 640)
                 .task { await AlarmeManager.pedirPermissaoDeNotificacao() }
         }

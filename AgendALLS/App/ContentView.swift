@@ -28,7 +28,7 @@ enum MiniApp: String, CaseIterable, Identifiable {
         }
     }
 
-    var disponivel: Bool { self != .senhas }
+    var disponivel: Bool { true }
 }
 
 struct ContentView: View {
@@ -60,6 +60,8 @@ struct ContentView: View {
                         CadastroView()
                     case .remedios?:
                         RemediosView()
+                    case .senhas?:
+                        SenhasView()
                     case let app?:
                         EmBreveView(app: app)
                     case nil:

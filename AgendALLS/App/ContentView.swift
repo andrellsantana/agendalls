@@ -28,7 +28,7 @@ enum MiniApp: String, CaseIterable, Identifiable {
         }
     }
 
-    var disponivel: Bool { self == .ponto }
+    var disponivel: Bool { self == .ponto || self == .tarefas }
 }
 
 struct ContentView: View {
@@ -52,6 +52,8 @@ struct ContentView: View {
                     switch selecao {
                     case .ponto?:
                         PontoView()
+                    case .tarefas?:
+                        TarefasView()
                     case let app?:
                         EmBreveView(app: app)
                     case nil:

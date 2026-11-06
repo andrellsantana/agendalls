@@ -13,6 +13,15 @@ enum ValorSQL {
         return nil
     }
 
+    var real: Double? {
+        switch self {
+        case .real(let v): return v
+        case .inteiro(let v): return Double(v)
+        case .texto(let v): return Double(v)
+        case .nulo: return nil
+        }
+    }
+
     var inteiro: Int? {
         switch self {
         case .inteiro(let v): return v
@@ -86,6 +95,23 @@ final class BancoDeDados {
             descricao TEXT NOT NULL DEFAULT ''
         );
         CREATE INDEX idx_ponto_ajuste_data ON ponto_ajuste(data);
+        """,
+        // 2: Tarefas
+        """
+        CREATE TABLE tarefa (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            titulo TEXT NOT NULL,
+            notas TEXT NOT NULL DEFAULT '',
+            feita INTEGER NOT NULL DEFAULT 0,
+            ordem INTEGER NOT NULL DEFAULT 0,
+            x REAL NOT NULL DEFAULT 0,
+            y REAL NOT NULL DEFAULT 0,
+            rotacao REAL NOT NULL DEFAULT 0,
+            papel TEXT NOT NULL DEFAULT 'cinza',
+            destaques TEXT NOT NULL DEFAULT '',
+            criada_em REAL NOT NULL DEFAULT 0
+        );
+        CREATE INDEX idx_tarefa_ordem ON tarefa(ordem);
         """
     ]
 

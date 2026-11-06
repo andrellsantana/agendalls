@@ -9,7 +9,7 @@ Desenvolvido por André S.
 - **Tarefas**: lista com prioridade por arrastar e soltar, e mesa com recortes de jornal rasgado (arrastáveis, marca-texto nas palavras do título, 6 cores de papel, 6 fundos de mesa). Botão direito: feito / não feito, editar, excluir.
 - **Links**: cards por categoria (tags coloridas com #), em ordem alfabética; o logotipo é buscado no próprio site e dá a cor ao card; clique duplo abre no Safari ou no navegador escolhido em Configurações; arraste um card para outra categoria; botão direito: editar, mover, excluir.
 - **Cadastro**: dados pessoais, documentos (com botão de copiar), contato, endereço, perfil, experiência, formação, idiomas, habilidades, programas e interesses; foto enquadrada no círculo; impressão e PDF em quatro modelos (currículo no tema azul-marinho, ficha completa, só documentos, personalizado). Abre só com Touch ID, tranca após 1 minuto sem uso e fica criptografado no banco.
-- Os outros mini apps ( Cadastro, Remédios, Senhas) aparecem na barra lateral e chegam nas próximas versões.
+- Os outros mini apps (Remédios, Senhas) aparecem na barra lateral e chegam nas próximas versões.
 
 ## Requisitos
 
